@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataNeural1" msprop:Generator_TableClassName="DataNeural1DataTable" msprop:Generator_TableVarName="tableDataNeural1" msprop:Generator_TablePropName="DataNeural1" msprop:Generator_RowDeletingName="DataNeural1RowDeleting" msprop:Generator_RowChangingName="DataNeural1RowChanging" msprop:Generator_RowEvHandlerName="DataNeural1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataNeural1RowDeleted" msprop:Generator_UserTableName="DataNeural1" msprop:Generator_RowChangedName="DataNeural1RowChanged" msprop:Generator_RowEvArgName="DataNeural1RowChangeEvent" msprop:Generator_RowClassName="DataNeural1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Guid" msprop:Generator_ColumnVarNameInTable="columnGuid" msprop:Generator_ColumnPropNameInRow="Guid" msprop:Generator_ColumnPropNameInTable="GuidColumn" msprop:Generator_UserColumnName="Guid" type="xs:string" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RelationNeural" msprop:Generator_TableClassName="RelationNeuralDataTable" msprop:Generator_TableVarName="tableRelationNeural" msprop:Generator_TablePropName="RelationNeural" msprop:Generator_RowDeletingName="RelationNeuralRowDeleting" msprop:Generator_RowChangingName="RelationNeuralRowChanging" msprop:Generator_RowEvHandlerName="RelationNeuralRowChangeEventHandler" msprop:Generator_RowDeletedName="RelationNeuralRowDeleted" msprop:Generator_UserTableName="RelationNeural" msprop:Generator_RowChangedName="RelationNeuralRowChanged" msprop:Generator_RowEvArgName="RelationNeuralRowChangeEvent" msprop:Generator_RowClassName="RelationNeuralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Guid" msprop:Generator_ColumnVarNameInTable="columnGuid" msprop:Generator_ColumnPropNameInRow="Guid" msprop:Generator_ColumnPropNameInTable="GuidColumn" msprop:Generator_UserColumnName="Guid" type="xs:string" />
+              <xs:element name="ConnectNeural_x003A_Guid" msprop:Generator_ColumnVarNameInTable="_columnConnectNeural_Guid" msprop:Generator_ColumnPropNameInRow="_ConnectNeural_Guid" msprop:Generator_ColumnPropNameInTable="_ConnectNeural_GuidColumn" msprop:Generator_UserColumnName="ConnectNeural:Guid" type="xs:string" minOccurs="0" />
+              <xs:element name="ConnectSummary_x003A_string" msprop:Generator_ColumnVarNameInTable="_columnConnectSummary_string" msprop:Generator_ColumnPropNameInRow="_ConnectSummary_string" msprop:Generator_ColumnPropNameInTable="_ConnectSummary_stringColumn" msprop:Generator_UserColumnName="ConnectSummary:string" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataNeural" msprop:Generator_TableClassName="DataNeuralDataTable" msprop:Generator_TableVarName="tableDataNeural" msprop:Generator_TablePropName="DataNeural" msprop:Generator_RowDeletingName="DataNeuralRowDeleting" msprop:Generator_RowChangingName="DataNeuralRowChanging" msprop:Generator_RowEvHandlerName="DataNeuralRowChangeEventHandler" msprop:Generator_RowDeletedName="DataNeuralRowDeleted" msprop:Generator_UserTableName="DataNeural" msprop:Generator_RowChangedName="DataNeuralRowChanged" msprop:Generator_RowEvArgName="DataNeuralRowChangeEvent" msprop:Generator_RowClassName="DataNeuralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Guid" msprop:Generator_ColumnVarNameInTable="columnGuid" msprop:Generator_ColumnPropNameInRow="Guid" msprop:Generator_ColumnPropNameInTable="GuidColumn" msprop:Generator_UserColumnName="Guid" type="xs:string" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+              <xs:element name="RelationsTo_x003A_SeqNeu" msprop:Generator_ColumnVarNameInTable="_columnRelationsTo_SeqNeu" msprop:Generator_ColumnPropNameInRow="_RelationsTo_SeqNeu" msprop:Generator_ColumnPropNameInTable="_RelationsTo_SeqNeuColumn" msprop:Generator_UserColumnName="RelationsTo:SeqNeu" type="xs:string" minOccurs="0" />
+              <xs:element name="RelationsFrom_x003A_SeqNeu" msprop:Generator_ColumnVarNameInTable="_columnRelationsFrom_SeqNeu" msprop:Generator_ColumnPropNameInRow="_RelationsFrom_SeqNeu" msprop:Generator_ColumnPropNameInTable="_RelationsFrom_SeqNeuColumn" msprop:Generator_UserColumnName="RelationsFrom:SeqNeu" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataNeural1" />
+      <xs:field xpath="mstns:Guid" />
+    </xs:unique>
+    <xs:unique name="RelationNeural_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RelationNeural" />
+      <xs:field xpath="mstns:Guid" />
+    </xs:unique>
+    <xs:unique name="DataNeural_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataNeural" />
+      <xs:field xpath="mstns:Guid" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="RelationNeural_DataNeural" msdata:parent="RelationNeural" msdata:child="DataNeural1" msdata:parentkey="ConnectNeural_x003A_Guid" msdata:childkey="Guid" msprop:Generator_UserChildTable="DataNeural1" msprop:Generator_ChildPropName="GetDataNeuralRows" msprop:Generator_UserRelationName="RelationNeural_DataNeural" msprop:Generator_RelationVarName="relationRelationNeural_DataNeural" msprop:Generator_UserParentTable="RelationNeural" msprop:Generator_ParentPropName="RelationNeuralRow" />
+      <msdata:Relationship name="DataNeural1_RelationNeural" msdata:parent="DataNeural" msdata:child="RelationNeural" msdata:parentkey="RelationsTo_x003A_SeqNeu" msdata:childkey="Guid" msprop:Generator_UserChildTable="RelationNeural" msprop:Generator_ChildPropName="GetRelationNeuralRowsByDataNeural1_RelationNeural" msprop:Generator_UserRelationName="DataNeural1_RelationNeural" msprop:Generator_RelationVarName="relationDataNeural1_RelationNeural" msprop:Generator_UserParentTable="DataNeural" msprop:Generator_ParentPropName="DataNeuralRowByDataNeural1_RelationNeural" />
+      <msdata:Relationship name="DataNeural1_RelationNeural1" msdata:parent="DataNeural" msdata:child="RelationNeural" msdata:parentkey="RelationsFrom_x003A_SeqNeu" msdata:childkey="Guid" msprop:Generator_UserChildTable="RelationNeural" msprop:Generator_ChildPropName="GetRelationNeuralRowsByDataNeural1_RelationNeural1" msprop:Generator_UserRelationName="DataNeural1_RelationNeural1" msprop:Generator_RelationVarName="relationDataNeural1_RelationNeural1" msprop:Generator_UserParentTable="DataNeural" msprop:Generator_ParentPropName="DataNeuralRowByDataNeural1_RelationNeural1" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

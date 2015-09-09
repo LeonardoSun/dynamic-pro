@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DynamicProgramming.MethodBase">
+    <Position X="2.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgSCAAAAAEAAAAAQAAAAAAQAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MethodBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicProgramming.ClassBase">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEKAAAACAAAAAAAAAAAAAAAAAAAACgEA=</HashCode>
+      <FileName>ClassBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicProgramming.OperationBase">
+    <Position X="5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAAAAAAEAAAAIAAAABAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>OperationBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicProgramming.ProgrammingElementBase">
+    <Position X="2.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProgrammingElementBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicProgramming.DynamicObject">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>DynamicObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicProgramming.DataDefination.Number">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAACABA=</HashCode>
+      <FileName>DataDefination\Number.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DynamicProgramming.ICallable">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICallable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
